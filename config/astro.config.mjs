@@ -8,7 +8,7 @@ const isGHPages = process.env.GITHUB_ACTIONS === "true"; // Автоопреде
 
 export default defineConfig({
     site: "https://web22des.github.io",
-    base: isDev || isPreview || !isGHPages ? "/" : "/astro-template_v-01-test/",
+    base: isDev || isPreview || !isGHPages ? "/" : "/astro-template_v-02-portfolio/",
     trailingSlash: "always",
     output: "static", // Явно указываем статический режим
     vite: viteConfig,
