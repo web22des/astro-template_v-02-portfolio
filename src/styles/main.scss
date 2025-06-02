@@ -1,0 +1,6 @@
+@use "./base/null.scss";
+@use "./base/global.scss";
+
+body {
+    background: var(--color-bg-fill);
+}
